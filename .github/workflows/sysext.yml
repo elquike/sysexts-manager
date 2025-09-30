@@ -14,6 +14,7 @@ on:
   push:
     tags:
       - "*"
+  workflow_dispatch:
 
 # Needed to allow creating a release
 permissions:
